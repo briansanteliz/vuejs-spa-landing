@@ -1,0 +1,161 @@
+body {
+    background-color: #fff6f6
+}
+h1 {
+    text-align: center;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+header {
+    padding: 20px 0 0 0;
+    background: white;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+
+ul {
+    list-style: none;
+}
+#hero {
+    background-image:url(../img/hero.jpg);
+    height: 350px;
+}
+#encabezado {
+    margin: 30px 0;
+}
+
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.contenido-hero {
+    margin-top: 80px;
+    color: white;
+}
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+
+
+
+.barra {
+    padding: 20px 0;
+background: #741d51; /* Old browsers */
+background: -moz-linear-gradient(left, #741d51 0%, #e44e52 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #741d51 0%,#e44e52 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #741d51 0%,#e44e52 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', endColorstr='#e44e52',GradientType=1 ); /* IE6-9 */
+}
+
+.barra p {
+    margin:0;
+    color: white;
+}
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom:0;
+    }
+}
+
+
+
+.icono1 {
+    background-image: url(../img/icono1.png);
+}
+.icono2 {
+    background-image: url(../img/icono2.png);
+}
+.icono3 {
+    background-image: url(../img/icono3.png);
+}
+
+#lista-cursos .row {
+    margin-bottom:20px;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    background: white;
+}
+@media (min-width: 550px) {
+    .card {
+        text-align: left;
+    }
+}
+.iconos {
+    background-color: rgb(245, 245, 245);
+  }
+  .iconos img {
+    height: 100px;
+  }
+      
+.card-body  {
+    padding: 10px 20px;
+}
+
+.card-body p, 
+.card h4 {
+    margin-bottom: 5px;
+}
+.card-body .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.card-body .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+.bold{
+    font-weight: bold;
+    font-size:1.3em;
+}
+
+.footer {
+    margin-top: 40px;
+    border-top:1px solid #aaa;;
+    padding-top: 40px;   
+}
+.footer .menu a{
+display: block;
+margin-bottom: 10px;
+text-decoration: none;
+}
+.subtitulo{
+    color:#159893;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    font-style: italic !important;
+    font-size: 20px !important;
+}
+.titulo{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #176961;
+}
+.navbar{
+    font-size:1.5em;
+    font-weight: bold !important;
+
+}
